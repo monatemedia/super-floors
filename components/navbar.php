@@ -1,13 +1,14 @@
 <?php
-// Navbar Component
+// Navbar Component 
 ?>
 
 <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent py-4">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center">
-            <div class="flex items-center">
+            <a href="/" class="flex items-center">
+                <img src="http://localhost/super-floors/assets/images/logo-red.png" alt="Logo" class="h-8 mr-3">
                 <span class="text-2xl font-bold text-[#F40B0C]">Super Floors</span>
-            </div>
+            </a>
 
             <!-- Desktop Navigation -->
             <div class="hidden md:flex items-center space-x-8">
@@ -17,11 +18,7 @@
                 <a href="#contact" class="hover:text-[#F40B0C] transition-colors">Contact</a>
                 <a href="tel:+27836338268"
                     class="flex items-center bg-[#F40B0C] text-white px-4 py-2 rounded-md hover:bg-red-600 transition-colors">
-                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                            d="M2 3.5A1.5 1.5 0 013.5 2h13A1.5 1.5 0 0118 3.5v13a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 012 16.5v-13zM16 4H4v12h12V4z">
-                        </path>
-                    </svg>
+                    <i class="fa-solid fa-phone mr-3"></i>
                     +27 83 633 8268
                 </a>
             </div>
