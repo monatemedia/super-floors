@@ -1,0 +1,37 @@
+# Environment variables
+.env
+
+# Dependencies
+/vendor/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+access_log
+
+# Cache
+*.cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Uploaded files
+/uploads/
+/media/
+
+# Compiled files
+*.css.map
+*.js.map 
